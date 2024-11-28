@@ -1,0 +1,36 @@
+{
+  "user": {
+    "id": "1234567890",
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "emailVerified": true,
+    "phoneNumber": "+1234567890",
+    "profileImage": "/src/assets/profile_pic.jpg",
+    "address": {
+      "street": "123 Main Street",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001",
+      "country": "USA"
+    },
+    "authMethods": {
+      "emailAndPassword": true,
+      "googleAccount": true
+    },
+    "role":"recruiter",
+    "preferences": {
+      "language": "en-US",
+      "theme": "dark"
+    },
+    "createdAt": "2024-01-01T12:00:00Z",
+    "lastLogin": "2024-11-27T09:30:00Z",
+    "metadata": {
+      "loginCount": 50,
+      "lastLoginIP": "192.168.1.1"
+    },
+    "tokens": {
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5...",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5..."
+    }
+  }
+}

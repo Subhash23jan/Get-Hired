@@ -15,6 +15,7 @@ import SavedJobs from "./pages/save-jobs";
 import JobPage from "./pages/job";
 import AppLayout from "./layout/app-layout";
 import { ThemeProvider } from "./components/theme-provider";
+import ProtectedRoute from "./layout/protected-route";
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,9 @@ const router = createBrowserRouter([
       },
       {
         path: "/jobs",
-        element: <JobListing />,
+        element: <ProtectedRoute>
+          <JobListing />
+        </ProtectedRoute>,
       },
       {
         path: "/post-job",
