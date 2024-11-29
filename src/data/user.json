@@ -1,5 +1,4 @@
-{
-  "user": {
+ {
     "id": "1234567890",
     "name": "John Doe",
     "email": "johndoe@example.com",
@@ -17,7 +16,7 @@
       "emailAndPassword": true,
       "googleAccount": true
     },
-    "role":"recruiter",
+    "role":"candidate",
     "preferences": {
       "language": "en-US",
       "theme": "dark"
@@ -33,4 +32,3 @@
       "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5..."
     }
   }
-}

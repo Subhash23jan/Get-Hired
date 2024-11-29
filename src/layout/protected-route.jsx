@@ -1,24 +1,28 @@
-
-
-import { Navigate, useLocation } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import { Navigate, useLocation, useParams } from 'react-router-dom';
 import user from '../data/user.json';
+
 function ProtectedRoute({ children }) {
-    console.log(user);
     const { pathname } = useLocation();
     const { role } = user;
+    const { id } = useParams();
+
+    console.log(user); 
+    console.log(role); 
+
+    if (pathname.startsWith('/job/') && id) {
+        if (role === "candidate") { // Use strict equality (===)
+            return children;
+        } else {
+            return <Navigate to="/" replace />;
+        }
+    }
+
     return children;
-    // if (pathname === '/jobs') {
-    //     if(role==='candidate')
-    //         return children
-    //     else
-    //         return <Navigate to="/"/>
-    // } 
-    // if (pathname === '/post-job') {
-    //     if(role==='candidate')
-    //         return children
-    //     else
-    //         return <Navigate to="/"/>
-    // }
 }
 
-export default ProtectedRoute
+ProtectedRoute.propTypes = {
+    children: PropTypes.node.isRequired,
+};
+
+export default ProtectedRoute;

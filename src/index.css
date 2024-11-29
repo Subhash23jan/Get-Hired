@@ -81,4 +81,5 @@
   .gradient-title {
     @apply gradient text-transparent bg-clip-text;
   }
+
 }

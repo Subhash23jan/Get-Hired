@@ -16,6 +16,7 @@ import JobPage from "./pages/job";
 import AppLayout from "./layout/app-layout";
 import { ThemeProvider } from "./components/theme-provider";
 import ProtectedRoute from "./layout/protected-route";
+import InvalidPage from "./pages/invalid-page";
 
 const router = createBrowserRouter([
   {
@@ -31,9 +32,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/jobs",
-        element: <ProtectedRoute>
-          <JobListing />
-        </ProtectedRoute>,
+        element: <JobListing />
+        ,
       },
       {
         path: "/post-job",
@@ -49,8 +49,14 @@ const router = createBrowserRouter([
       },
       {
         path: "/job/:id",
-        element: <JobPage />,
+        element:  <ProtectedRoute>
+          <JobPage />
+        </ProtectedRoute>,
       },
+      {
+        path: "/*",
+        element:<InvalidPage/>
+      }
     ],
   },
 ]);
