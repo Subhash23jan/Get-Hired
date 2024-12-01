@@ -9,9 +9,14 @@ const AppLayout = () => {
         <Header />
         <Outlet />
       </main>
-      <div className="p-10 text-center bg-gray-800 mt-10">
-        Made by Subhash D
+      <div className="flex p-6 bg-gray-800 text-white mt-10 justify-center items-center space-x-6">
+        <p className="text-lg font-semibold">Made with ❤️ by</p>
+        <p className="text-xl font-bold">Subhash D</p>
+        <p className="text-sm">Author | Owner</p>
+        <p className="text-xs">© 2024 Subhash D. All Rights Reserved.</p>
       </div>
+
+
     </div>
   );
 };

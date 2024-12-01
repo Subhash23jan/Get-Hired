@@ -5,7 +5,14 @@
     "logoPath": "/assets/companies/google-icon-logo-svgrepo-com.svg",
     "jobDescription": "As a Software Engineer at Google, you will be responsible for developing scalable and efficient web applications that serve millions of users worldwide. You will collaborate closely with cross-functional teams, including product managers, designers, and fellow engineers, to build and maintain high-performance applications. Your role will also involve optimizing code, debugging issues, and ensuring the security and reliability of web services. You will work with cutting-edge technologies to create innovative solutions that enhance user experience and contribute to the overall success of the company.",
     "location": "Bangalore, Karnataka",
-    "jobId":113323
+    "jobId": 113323,
+    "requirements": [
+      "Proficiency in programming languages such as Java, Python, or C++.",
+      "Experience with scalable web application development.",
+      "Strong problem-solving and debugging skills.",
+      "Understanding of web security principles.",
+      "Bachelor's or Master’s degree in Computer Science or a related field."
+    ]
   },
   {
     "companyName": "Master Card",
@@ -13,7 +20,14 @@
     "logoPath": "/assets/companies/mastercard-4-logo-svgrepo-com.svg",
     "jobDescription": "As a Data Scientist at MasterCard, you will analyze and interpret complex datasets to provide actionable insights for business strategy. You will utilize advanced machine learning techniques and statistical analysis to identify patterns and trends in large data sets, which will be used to influence product development, marketing strategies, and customer engagement. Your role will involve working with cross-functional teams to translate business requirements into data-driven solutions and continuously improving algorithms to optimize business outcomes. You will also contribute to the development of predictive models and work on data visualization to communicate findings effectively.",
     "location": "Hyderabad, Telangana",
-    "jobId":6587
+    "jobId": 6587,
+    "requirements": [
+      "Proficiency in statistical tools like R, Python, or SAS.",
+      "Experience with machine learning frameworks such as TensorFlow or PyTorch.",
+      "Strong analytical and problem-solving skills.",
+      "Knowledge of data visualization tools like Tableau or Power BI.",
+      "Bachelor’s or Master’s degree in Data Science, Statistics, or a related field."
+    ]
   },
   {
     "companyName": "Paypal",
@@ -21,7 +35,14 @@
     "logoPath": "/assets/companies/paypal-logo-svgrepo-com.svg",
     "jobDescription": "As a Frontend Developer at PayPal, you will design and implement user-facing features that drive seamless and secure financial transactions for millions of users worldwide. You will be working extensively with React to build responsive web applications, ensuring that the user experience is intuitive and smooth across different devices. Your responsibilities will also include ensuring web performance optimization, testing, debugging, and maintaining high-quality standards for front-end code. You will work closely with UX/UI designers to ensure the visual appeal and usability of PayPal's platform, contributing to the overall user satisfaction and growth of the business.",
     "location": "Pune, Maharashtra",
-    "jobId":1234
+    "jobId": 1234,
+    "requirements": [
+      "Proficiency in JavaScript, HTML, and CSS.",
+      "Experience with React or similar frontend frameworks.",
+      "Strong understanding of responsive design principles.",
+      "Familiarity with web performance optimization techniques.",
+      "Bachelor's degree in Computer Science or related field."
+    ]
   },
   {
     "companyName": "Walmart",
@@ -29,8 +50,14 @@
     "logoPath": "/assets/companies/walmart-logo-svgrepo-com.svg",
     "jobDescription": "As a Machine Learning Engineer at Walmart, you will be responsible for developing and deploying machine learning models to enhance product performance and capabilities across the company's platforms. You will work with large datasets to build predictive models that improve customer experience, optimize inventory management, and drive business insights. Your role will involve developing algorithms, performing data preprocessing, and validating the performance of machine learning models. Additionally, you will collaborate with cross-functional teams to integrate these models into production systems, continuously optimizing them for efficiency and scalability, contributing to Walmart's digital transformation.",
     "location": "Mumbai, Maharashtra",
-    "jobId":80112
-    
+    "jobId": 80112,
+    "requirements": [
+      "Experience with machine learning frameworks like Scikit-learn or TensorFlow.",
+      "Proficiency in Python, R, or Java.",
+      "Knowledge of data preprocessing and feature engineering.",
+      "Understanding of cloud platforms like AWS or Azure.",
+      "Bachelor’s or Master’s degree in Machine Learning, AI, or related fields."
+    ]
   },
   {
     "companyName": "Snapchat",
@@ -38,7 +65,14 @@
     "logoPath": "/assets/companies/snapchat-logo-svgrepo-com.svg",
     "jobDescription": "As a Security Analyst at Snapchat, you will monitor and safeguard the company's systems and data from cyber threats. You will be responsible for conducting regular vulnerability assessments, identifying potential security risks, and implementing measures to mitigate them. You will work closely with other security and IT teams to ensure the integrity and confidentiality of Snapchat's infrastructure, both in the cloud and on-premises. Your role will involve analyzing security breaches, performing forensic investigations, and implementing corrective actions. Additionally, you will stay updated on the latest security trends to continuously improve the company's cybersecurity posture.",
     "location": "Chennai, Tamil Nadu",
-    "jobId":23224
+    "jobId": 23224,
+    "requirements": [
+      "Knowledge of cybersecurity principles and best practices.",
+      "Experience with vulnerability assessment tools like Nessus or Qualys.",
+      "Strong analytical and forensic investigation skills.",
+      "Understanding of cloud security.",
+      "Bachelor’s degree in Information Security, Computer Science, or related field."
+    ]
   },
   {
     "companyName": "Walmart",
@@ -46,7 +80,14 @@
     "logoPath": "/assets/companies/walmart-logo-svgrepo-com.svg",
     "jobDescription": "As a Software Engineer at Walmart, you will work on developing and maintaining web applications that support various aspects of the company’s e-commerce platform. You will work with modern web technologies and collaborate with cross-functional teams to deliver high-quality features that improve the customer experience. Your responsibilities will include writing clean, efficient code, performing code reviews, and ensuring that applications scale to meet Walmart's growing needs. You will also troubleshoot issues, optimize performance, and contribute to the overall improvement of Walmart's online presence.",
     "location": "Mumbai, Maharashtra",
-    "jobId":43567
+    "jobId": 43567,
+    "requirements": [
+      "Proficiency in programming languages like Java or Python.",
+      "Experience with web development frameworks like Angular or React.",
+      "Strong debugging and troubleshooting skills.",
+      "Understanding of software development life cycle (SDLC).",
+      "Bachelor’s degree in Computer Science or related field."
+    ]
   },
   {
     "companyName": "Google",
@@ -54,7 +95,14 @@
     "logoPath": "/assets/companies/google-icon-logo-svgrepo-com.svg",
     "jobDescription": "As a Product Manager at Google, you will drive product strategy and roadmap for key offerings. You will collaborate with engineering, marketing, and operations teams to define the vision, develop user-centric features, and lead the launch of new products. Your role will require a mix of technical understanding and business acumen to ensure the product aligns with user needs and market demands. You will also monitor product performance, analyze data, and iterate based on feedback to ensure sustained growth and success.",
     "location": "Bangalore, Karnataka",
-    "jobId":11234
+    "jobId": 11234,
+    "requirements": [
+      "Strong understanding of product lifecycle management.",
+      "Experience in driving product strategy and roadmap.",
+      "Excellent communication and stakeholder management skills.",
+      "Analytical skills to interpret market data and user feedback.",
+      "Bachelor’s or Master’s degree in Business Administration or related field."
+    ]
   },
   {
     "companyName": "Master Card",
@@ -62,6 +110,13 @@
     "logoPath": "/assets/companies/mastercard-4-logo-svgrepo-com.svg",
     "jobDescription": "As a Business Analyst at MasterCard, you will work closely with stakeholders to identify business needs and translate them into data-driven solutions. You will analyze market trends, customer behavior, and business operations to provide insights that drive strategic decisions. Your role will involve working with data scientists and technical teams to ensure solutions align with business objectives, while also facilitating communication between business and technical teams to streamline processes.",
     "location": "Hyderabad, Telangana",
-    "jobId":23590
+    "jobId": 23590,
+    "requirements": [
+      "Experience with data analysis and business intelligence tools.",
+      "Strong problem-solving and analytical skills.",
+      "Excellent communication and documentation skills.",
+      "Ability to translate business requirements into technical solutions.",
+      "Bachelor’s degree in Business, Analytics, or a related field."
+    ]
   }
 ]

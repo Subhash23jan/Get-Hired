@@ -1,8 +1,9 @@
-import { IoLocationOutline } from "react-icons/io5";
+
 import { CiHeart } from "react-icons/ci";
 import { Button } from "./ui/button";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
+import { MapPinIcon } from "lucide-react";
 
 function JobCard({ job }) {
   return (
@@ -16,7 +17,7 @@ function JobCard({ job }) {
             className="w-20 h-10 object-fill"
           />
           <div className="flex justify-around items-center">
-            <IoLocationOutline size={"12px"} className="mr-0" /> {/* Location icon */}
+            <MapPinIcon size={"12px"} className="mr-0" /> {/* Location icon */}
             <p className="text-xs font-semibold ml-1">{job.location}</p>
           </div>
         </p>
