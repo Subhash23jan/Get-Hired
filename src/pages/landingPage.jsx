@@ -14,7 +14,7 @@ const LandingPage = () => {
           <span className="flex items-center gap-2 sm:gap-6">
             and get
             <img
-              src="/src/assets/logo.jpeg"
+              src="/public/assets/logo.jpeg"
               className="h-14 mt-6 sm:h-30 lg:h-40"
               alt="Hirrd Logo"
             />
@@ -56,7 +56,7 @@ const LandingPage = () => {
           ))}
         </CarouselContent>
       </Carousel>
-      <img src="/src/assets/banner.jpeg" alt="banner" className="w-full"/>
+      <img src="/assets/banner.jpeg" alt="banner" className="w-full"/>
 
 
     </main>

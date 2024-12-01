@@ -1,42 +1,42 @@
 [
     {
         "name":"Google",
-        "path":"/src/assets/companies/google-icon-logo-svgrepo-com.svg",
+        "path":"/assets/companies/google-icon-logo-svgrepo-com.svg",
         "id":1
     },
     
     {
         "name":"Bosch",
-        "path":"/src/assets/companies/bosch-1-logo-svgrepo-com.svg",
+        "path":"/assets/companies/bosch-1-logo-svgrepo-com.svg",
         "id":2
     },
     
     {
         "name":"IBM",
-        "path":"/src/assets/companies/ibm-logo-svgrepo-com.svg",
+        "path":"/assets/companies/ibm-logo-svgrepo-com.svg",
         "id":3
     },
     
     {
         "name":"Master Card",
-        "path":"/src/assets/companies/mastercard-4-logo-svgrepo-com.svg",
+        "path":"/assets/companies/mastercard-4-logo-svgrepo-com.svg",
         "id":4
     },
     {
         "name":"Paypal",
-        "path":"/src/assets/companies/paypal-logo-svgrepo-com.svg",
+        "path":"/assets/companies/paypal-logo-svgrepo-com.svg",
         "id":5
     },
     
     {
         "name":"SnapChat",
-        "path":"/src/assets/companies/snapchat-logo-svgrepo-com.svg",
+        "path":"/assets/companies/snapchat-logo-svgrepo-com.svg",
         "id":6
     },
     
     {
         "name":"Walmart",
-        "path":"/src/assets/companies/walmart-logo-svgrepo-com.svg",
+        "path":"/assets/companies/walmart-logo-svgrepo-com.svg",
         "id":7
     }
 ]
