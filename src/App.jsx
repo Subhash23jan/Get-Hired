@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 
 import "./App.css";
+import { useEffect } from "react";
 import LandingPage from "./pages/landingPage";
 import OnBoarding from "./pages/onboarding";
 import JobListing from "./pages/job-listing";
@@ -63,6 +64,9 @@ const router = createBrowserRouter([
 
 
 function App() {
+  useEffect(() => {
+    document.title = "Job Portal";  // Set the document title dynamically
+  }, []);
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <RouterProvider router={router} />
