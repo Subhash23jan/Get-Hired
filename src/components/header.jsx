@@ -14,19 +14,19 @@ function Header() {
         {user.role === "candidate" ? (
           <Link to="/my-jobs">
             <Button variant="destructive" className="rounded-full mr-4">
-              <FaBookmark />
+              <FaBookmark className="text-sm" />
               My Jobs
             </Button>
           </Link>
         ) : (
           <Link to="/post-job">
             <Button variant="destructive" className="rounded-full mr-4">
-              <PenBox size={18} />
+              <PenBox size={18} className="text-xs" />
               Post a Job
             </Button>
           </Link>
         )}
-        <Button variant="outline" className="py-4 ">Login</Button>
+        <Button variant="outline" className="py-4  w-20">Login</Button>
       </div>
     </nav>
   );
