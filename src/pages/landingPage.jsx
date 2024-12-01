@@ -14,7 +14,7 @@ const LandingPage = () => {
           <span className="flex items-center gap-2 sm:gap-6">
             and get
             <img
-              src="/public/assets/logo.jpeg"
+              src="/assets/logo.jpeg"
               className="h-14 mt-6 sm:h-30 lg:h-40"
               alt="Hirrd Logo"
             />
